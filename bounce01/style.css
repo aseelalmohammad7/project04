@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.photo-switcher {
+    text-align: center;
+    padding: 30px;
+}
+
+.photo-switcher h1 {
+    margin-bottom: 30px;
+}
+
+#profileImage {
+    width: 250px;
+    height: 250px;
+
+    object-fit: cover;
+    border-radius: 50%;
+
+    transition: opacity 0.3s ease;
+}
+
+.buttons {
+    margin-top: 25px;
+
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+
+    cursor: pointer;
+}
